@@ -76,7 +76,7 @@ if [ "$USUARIO" == "0" ] && [ "$UBUNTU" == "20.04" ]
 		exit 1
 fi
 #
-# Script de instalação do Docker e Portainer no GNU/Linux Ubuntu Server 18.04.x
+# Script de instalação do Docker e Portainer no GNU/Linux Ubuntu Server 20.04.x
 # opção do comando echo: -e (enable interpretation of backslash escapes), \n (new line)
 # opção do comando hostname: -I (all IP address)
 # opção do comando date: + (format), %d (day), %m (month), %Y (year 1970), %H (hour 24), %M (minute 60)
@@ -85,7 +85,7 @@ echo -e "Início do script $0 em: `date +%d/%m/%Y-"("%H:%M")"`\n" &>> $LOG
 clear
 #
 echo
-echo -e "Instalação do Docker e Portainer no GNU/Linux Ubuntu Server 18.04.x\n"
+echo -e "Instalação do Docker e Portainer no GNU/Linux Ubuntu Server 20.04.x\n"
 echo -e "Após a instalação do Portainer acessar a URL: http://`hostname -I | cut -d ' ' -f1`:9000/\n"
 echo -e "Aguarde, esse processo demora um pouco dependendo do seu Link de Internet..."
 sleep 5
